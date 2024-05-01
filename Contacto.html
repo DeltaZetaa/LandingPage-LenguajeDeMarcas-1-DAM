@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Libresia de iconos web https://ionic.io/-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/FavIcon.png" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body class="body-contacto">
+    <header>
+        <a class="a-si-decoracion" href="index.html"><img class="img-nav" src="img/Logo.png"></a>
+        <ul class="nav">
+            <li><a href="QuienSoy.html">Quien soy</a></li>
+            <li><a href="CV.html">Curriculum</a></li>
+            <li><a href="Proyectos.html">Proyectos</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <div class="contenido-form">
+            
+            <img class="img-contacto-lateral" src="img/imgCont1.PNG" alt="">
+       
+            <div class="formulario1">
+                <form>
+                    <fieldset >
+                    <legend>Contacto</legend>
+                    
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Nombre" id="nombre">
+                    <label for="apellido">Apellidos</label>
+                    <input type="text" placeholder="Apellidos" id="apellido">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="email@email.com" id="email">
+                    </fieldset>
+                
+                    <fieldset >
+                    <legend>Otros datos</legend>
+                    <h6>Disclaimer</h6>
+                    <p class="aviso">"Estos datos son de suma importancia y podrían 
+                        ser utilizados en el futuro para chantajearte o 
+                        para prepararme en caso de que te vuelvas famos@ 
+                        y salga un trivial pursuit sobre tu persona."
+                    </p>
+                    <label for="Pregunta1">En caso de fuga radiactiva...</label>
+                    <select name="pregunta1">
+                        <option value="1">Buscaria un traje protector</option>
+                        <option value="2">Lameria las paredes, ya puestos...</option>
+                        <option value="3">Rezaria por convertirme en superheroe</option>
+                        <option value="4">Pondria la mano en la fuga.</option>
+                    </select>
+                    <label for="Pregunta2">Como hacer una invocación demoniaca</label>
+                    <select name="pregunta2">
+                        <option value="1">Sangre, pentagrama, y aceite de palma</option>
+                        <option value="2">Mediante un rezo mazo chungo</option>
+                        <option value="3">Echandole 666 horas al DOOM ethernal</option>
+                        <option value="4">Jaja demonios... que loco</option>
+                    </select>
+                    <label for="Pregunta3">Si nos quedamos los dos en una isla desierta...</label>
+                    <select name="pregunta3">
+                        <option value="1">Me sacrifico por ti</option>
+                        <option value="2">Te daria todos mis recursos</option>
+                        <option value="3">Prefiero que te salves tu</option>
+                        <option value="4">Las 3 anteriores</option>
+                    </select>
+                    </fieldset>
+                </form>
+
+                
+            </div>
+            <div class="formulario2">
+                
+                    <fieldset >
+                    <legend>Asunto</legend>
+                  
+                    <label for="Asunto">Motivo de la consulta</label>
+                    <select name="Motivos">
+                        <option value="1">Trabajo</option>
+                        <option value="2">Estudios</option>
+                        <option value="3">Debate ligero sobre si Goku gana a todos</option>
+                        <option value="4">Te debo dinero</option>
+                        <option value="5">Limpieza de espiritus</option>
+                        <option value="6">Configuracion de protocolos de MECHA</option>
+                        <option value="7">Clases de tango</option>
+                        <option value="8">Otro motivo</option>
+                    </select>
+                    <label for="apellido">¡Importante!</label>
+                    <p class="aviso">¡Buenas!¿Planeas venir a apuñalarme por algun malentendido en el pasado? 
+                        <br>¡Respeto tu franqueza! Para ahorrar tiempo en la búsqueda del abogado (que necesitaré)
+                        <br>sería genial si pudieras ponerlo aquí.¡Gracias por adelantado por la advertencia!
+                    </p>
+                    <input type="radio" name="advertencia" value="si">Pienso arrancarte la cabeza.
+                    <br><input type="radio" name="advertencia" value="no">Nah, es solo una consulta.
+                    <br>
+                    <label for="texto">Texto</label>
+                    <textarea cols="50px" rows="10px" spellcheck="true" placeholder="Comentame lo que se le venga en gana" id="texto"></textarea>
+                    <input type="submit" value="Enviar" formaction="mailto:diegolrm94@gmail.com">
+                </fieldset>
+                </form>
+            </div>
+            
+            <img class="img-contacto-lateral" src="img/imgCont2.PNG" alt="">
+            
+        </div>
+
+        <div class="copyright-cont">
+            <div class="caja-vacia"></div>
+            <div class="copyright">
+                <p>&copy;Web Personal a modo de presentación
+                    <br>esta pagina web ha sido creada para la clase de LM
+                </p>
+            </div>
+            <ul class="redes-sociales">
+                <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="mail-outline"></ion-icon></a></li>
+            </ul>
+            </div>
+    </section>
+</body>
+</html>
